@@ -2,3 +2,48 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white: #FFFFFF;
+    --light-gray: #605E5E;
+    --ff-DM: "DM Sans", sans-serif;
+    --green-color: #0d9488;
+    --ff-create-round: "Crete Round", serif;
+}
+
+.navbar{
+    background-color: var(--white);
+    padding: 18px 0;
+}
+
+nav img{
+    max-width: 100%;
+
+}
+nav ul{
+    font-family: var(--ff-DM);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--light-gray);
+    cursor: pointer;
+}
+
+.chatting-btn{
+    width: 169px ;
+    height: 55px;
+    border-radius: 31px;
+    font-family: var(--ff-DM);
+    border: 0;
+    background-color: var(--green-color);
+    color: var(--white);
+}
+/* section-1 */
+.section-1{
+
+}
+/* homework: read about linear gradient, angular gradient, conic gradient, examples */
