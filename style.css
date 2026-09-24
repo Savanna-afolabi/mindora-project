@@ -3,6 +3,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +16,8 @@
     --light-gray: #605E5E;
     --ff-DM: "DM Sans", sans-serif;
     --green-color: #0d9488;
+    --light-green:#E4FFFD;
+    --font-family: "Diphylleia", serif;
     --ff-create-round: "Crete Round", serif;
 }
 
@@ -34,16 +39,62 @@ nav ul{
 }
 
 .chatting-btn{
-    width: 169px ;
-    height: 55px;
     border-radius: 31px;
     font-family: var(--ff-DM);
-    border: 0;
+    border: none;
     background-color: var(--green-color);
     color: var(--white);
+    padding: 16px 24px;
 }
 /* section-1 */
 .section-1{
+    background: conic-gradient(
+        from 180deg,
+        rgba( 255, 122, 55, 0.35 ),
+        rgba( 13, 148, 136, 0.35 ),
+        rgba( 188, 190, 86, 0.35 ),
+        rgba( 221, 156, 70, 0.35 ),
+        rgba(198, 114, 114, 0.35)
 
+    );
 }
+.section-1-div{
+    display: flex;
+    align-items: center;
+    padding: 80px 14px;
+    gap: 160px;
+}
+.text-div{
+    max-width: 45%;
+}
+
+.img-div{
+    max-width: 40%;
+}
+
+.text-div > button:first-child{
+    background-color: var(--light-green);
+    padding: 8px 18px;
+    border-radius: 49px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-family);
+}
+
+.text-div h1{
+    font-family: var(--ff-create-round);
+    font-weight: 400;
+    font-size: 48px;
+    color: black;
+    padding-right: 50px;
+}
+
+
+
+
 /* homework: read about linear gradient, angular gradient, conic gradient, examples */
