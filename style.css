@@ -14,6 +14,7 @@
 :root{
     --white: #FFFFFF;
     --light-gray: #605E5E;
+    --grey: #747272;
     --ff-DM: "DM Sans", sans-serif;
     --green-color: #0d9488;
     --light-green:#E4FFFD;
@@ -66,10 +67,12 @@ nav ul{
 }
 .text-div{
     max-width: 45%;
+    /* flex: 1.5; */
 }
 
 .img-div{
     max-width: 40%;
+    /* flex: 1; */
 }
 
 .text-div > button:first-child{
@@ -94,7 +97,99 @@ nav ul{
     padding-right: 50px;
 }
 
+/* .start-button{
+    padding: 16px 37px;
+    border-radius: 31px;
+    border: none;
+    background-color: var(--green-color);
+    color: var(--white);
+    font-family: var(--ff-DM);
+} */
+.text-div p{
+    font-family: var(--ff-create-round);
+    font-size: 18px;
+    color: var(--grey);
+    font-weight: 400; 
+}
+
+.text-div button:first-child{
+    border: none;
+    padding: 16px 37px;
+    background-color: var(--light-green);
+    border-radius: 31px;
+    color: black;
+
+}
+
+.text-div > button:last-child{
+    border: none;
+    padding: 16px 37px;
+    background-color: var(--green-color);
+    color: var(--white);
+    border-radius: 31px;
+}
+
+/* @media  (max-width: 900px) {
+    
+    .section-1-div{
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    
+    .img-fluid{
+      width: 140%;
+    }
+
+    .text-div h1{
+        font-size: 35px;
+        padding: none;
+        display: flex;
+        align-items: center;
+    }
+
+   
+
+    .text-div > button:first-child{
+    margin-bottom: 40px;
+}   
+}
 
 
 
-/* homework: read about linear gradient, angular gradient, conic gradient, examples */
+tablet */
+
+@media (min-width: 768px) and (max-width: 900px){
+    .section-1-div{
+        flex-direction: column-reverse;
+    }
+
+     .img-div{
+        display: none;
+     }
+     .text-div{
+        max-width: 100%;
+     }
+
+}
+
+
+@media (max-width: 560px){
+    .section-1-div{
+        display: block;
+    }
+    .text-div{
+        max-width: 100%;
+    }
+    .img-div{
+        max-width: 100%;
+        margin-top: 30px;
+    }
+    .text-div h1{
+        font-size: 38px;
+        padding: 14px 0;
+        
+    }
+}
+
+/* one rem is 16 px */
