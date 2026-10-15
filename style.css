@@ -5,6 +5,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 
 *{
     margin: 0;
@@ -20,6 +22,7 @@
     --light-green:#E4FFFD;
     --font-family: "Diphylleia", serif;
     --ff-create-round: "Crete Round", serif;
+    --second-font-family: "DM Sans", sans-serif;
 }
 
 .navbar{
@@ -146,7 +149,35 @@ nav ul{
 .brain-img{
     padding-right: 40px;
 }
-
+ul li::marker{
+    color: var(--green-color); 
+}
+ul > li{
+    font-family: var(--ff-DM);
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--light-gray);
+}
+#section-3{
+    background-color: var(--green-color);
+}
+#work{
+    color: var(--white);
+    font-family: var(--ff-create-round);
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 80px;
+}
+#steps{
+    font-family: var(--second-font-family);
+    color: #E6E4E4;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+#card-1{
+    
+}
 
 
 @media (min-width: 768px) and (max-width: 900px){
