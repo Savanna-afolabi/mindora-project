@@ -158,10 +158,24 @@ ul > li{
     font-weight: 400;
     font-size: 18px;
     color: var(--light-gray);
+    border: red solid 1px;
 }
 #section-3{
+ 
     background-color: var(--green-color);
 }
+#section-4 > h4{
+    font-family: var(--ff-create-round);
+    color: var(--deep-green);
+}
+#section-4 > p{
+    font-family: var(--second-font-family); 
+    color: var(--light-gray);
+}
+#section-4{
+    padding-top: 50px;
+}
+
 /* #test-number{
     background-color: blue;
     border-radius: 100%;
@@ -220,6 +234,10 @@ ul > li{
 .text-card-1{
     color: var(--deep-green);
 }
+#section-3{
+    padding-bottom: 60px;
+}
+
 
 @media (min-width: 768px) and (max-width: 900px){
     .section-1-div{
@@ -294,4 +312,4 @@ ul > li{
 
 
 
-/* one rem is 16 px */
+/* one 
