@@ -294,7 +294,8 @@ ul > li{
 .sect-5-div{
     width: 80%;
     margin: auto;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
+    margin-top: 50px;
 }
 
 footer{
@@ -304,6 +305,8 @@ footer{
 .footer-div{
     display: flex;
     justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 35px;
 }
 
 #div²{
@@ -322,10 +325,19 @@ footer{
 #div³ > h2 {
     color: #605E5E;
     font-family: var(--ff-DM);
-    size: 18px;
+    font-size: 18px;
+    font-weight: 400;
 }
 #div³{
     gap: 44px;
+    display: flex;
+
+}
+#div-bolt > p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--ff-DM);
+    color: var(--light-gray);
 }
 
 @media (min-width: 768px) and (max-width: 900px){
@@ -415,8 +427,24 @@ footer{
 .sect-5-div > p{
     font-size: 14px;
 }
-
+.footer-div{
+    flex-direction: column;
+    align-items: center;
+}
+#div³{
+    flex-direction: column;
+    align-items: center;
 }
 
+#div³{
+    gap: 10px;
+}
+#div-bolt{
+    margin-top: 20px;
+}
+#div² > img{
+    display: flex;
+    a
+}
 
-
+}
