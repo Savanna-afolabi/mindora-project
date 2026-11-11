@@ -446,5 +446,9 @@ footer{
     display: flex;
     align-items: center;
 }
-
+#footer-img{
+    display: flex;
+    align-self: center;
+    
+}
 }
