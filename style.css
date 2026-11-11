@@ -444,7 +444,7 @@ footer{
 }
 #div² > img{
     display: flex;
-    a
+    align-items: center;
 }
 
 }
